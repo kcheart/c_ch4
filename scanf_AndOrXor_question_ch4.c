@@ -5,10 +5,8 @@
 
 int main()
 {
-    int a;
-    int b;
-    int c;
-
+    int a, b, c;
+    
     printf("input 3 numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 

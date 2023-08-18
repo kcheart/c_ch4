@@ -1,5 +1,6 @@
 // 2023.08.17
-// Triangle 2
+// for loop example: Triangle 2
+// nested loop
 /* output:
 1     *
 2    ***
@@ -9,15 +10,16 @@
 */
 
 #include <stdio.h>
+#define TRIANGLE_HEIGHT 5
 
 int main()
 {
     int i = 0, j = 0;
 
-    for (i = 1; i <= 5; i = i + 1)
+    for (i = 1; i <= TRIANGLE_HEIGHT; i = i + 1)
     {
-        printf("%d ", i);
-        for (j = 1; j <= (5 - i); j = j + 1)
+        printf("%d\t", i);
+        for (j = 1; j <= (TRIANGLE_HEIGHT - i); j = j + 1)
         {
             printf(" ");
         }
