@@ -86,6 +86,8 @@ void k_string_check(char string[], int k, int answer_check)
                 printf(" %d}\n", serial_count[i]);
         }
     }
+    else
+        printf("{1}\n");
 
     // find k-interlaced string repeat times into k-max
     int k_max = 0;
