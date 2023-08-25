@@ -1,5 +1,6 @@
 // 2003.08.20
 //  bubble sort
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -9,7 +10,7 @@ int main()
 {
     int data[DATA_SIZE];
 
-    // srand(time(NULL));
+    srand(time(NULL));
     int i;
 
     printf("Before sorting:\n");
