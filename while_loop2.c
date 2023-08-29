@@ -1,5 +1,5 @@
 // 2023.08.18
-// while loop example: 輾轉相除法-求兩正整數最大公因數
+// while loop example: 輾轉相除法-求兩正整數最大公因數 gcd
 // Euclidean algorithm
 
 #include <stdio.h>
